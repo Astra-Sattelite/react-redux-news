@@ -1,0 +1,55 @@
+.NewsPageWrapper {
+  width: 100%;
+  min-height: 0px;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 0px;
+}
+
+.NewsPage {
+  width: 100%;
+  min-height: 0px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-bottom: 0px;
+}
+
+.NewsItem {
+  box-sizing: border-box;
+  margin: 5px;
+  width: flex;
+  height: 250px;
+  padding: 10px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+}
+
+.NewsItemTitle {
+  width: 100%;
+}
+
+.NewsItemText {
+  width: 100%;
+  height: 70%;
+  overflow-x: scroll;
+}
+
+.NewsItemAdminPanel {
+  width: 100%;
+  display: flex;
+  flex-direction: row
+}
+
+.NewsItemDelete {
+  width: fit-content;
+  background-color: red;
+  margin: 5px;
+}
+
+.NewsItemApprove {
+  width: fit-content;
+  background-color: lightgreen;
+  margin: 5px;
+}
